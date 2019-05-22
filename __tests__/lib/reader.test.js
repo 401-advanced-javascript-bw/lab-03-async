@@ -16,7 +16,6 @@ describe('File Reader Module', () => {
     // function so that you can trap it.
     reader(files, (err, data) => {
       expect(err).toBeDefined();
-      // expect(data).toBeUndefined();
       done();
     });
   });
